@@ -1,0 +1,2 @@
+docker build -t ultimate_ai_assistant .  
+docker run -d -e OPENAI_API_KEY='<YOUR_API_KEY>' -p 8000:80 ultimate_ai_assistant
